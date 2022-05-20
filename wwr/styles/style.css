@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Merriweather&display=swap');
+
 div {
     max-width: 1600px;
 }
@@ -8,24 +10,33 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: "Merriweather";
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
+    font-family: "Kalam";
 }
 #hero-msg h4 {
     text-align: center;
+    font-family: "Merriweather";
 }
 .button-box {
     text-align: center;
+    font-family: "Merriweather";
 }
 main section {
     text-align: center;
+    font-family: "Merriweather";
 }
 #background {
     height: 725px;
 }
 body {
     background-color: #fcfbfb; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -38,11 +49,21 @@ nav a:hover {
     background-color: #fcfbfb;
     color: blue;
     text-decoration: none;
+    font-family: "Merriweather";
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: #fcfbfb;
     color: green;
     text-decoration: none;
+    font-family: "Merriweather";
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #023E8A;
@@ -57,41 +78,82 @@ nav a:hover {
 }
 .msg {
     background-color: #fcfbfb;
+    color: black;
+    font-family: "Merriweather";
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: rgba(20,30,13, .7);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 .home-title {
     color: #023E8A;
+    font-family: "Kalam";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #023E8A;
 }
 .msg h2 {
-    color: white;
+    color: black;
+    font-family: "Kalam";
 }
 .msg p {
-    color: white;
+    color: black;
+    font-family: "Merriweather";
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: white;
+    font-family: "Merriweather";
 }
 footer a {
     color: #00B4D8;
     text-decoration: none;
+    font-family: "Merriweather";
 }
 footer a:hover {
     color: #F6F740;
 }
 footer h3 a {
-    text-decoration: underline;
+    text-decoration: none;
+    font-family: "Merriweather";
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }

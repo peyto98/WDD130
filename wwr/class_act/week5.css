@@ -1,0 +1,39 @@
+.pyramid-container {
+    text-align: center;
+  }
+  
+  .inside-text {
+    position: absolute;
+    bottom: -40px;
+  }
+  
+  #pyramid-level-3 {
+      border-bottom: 50px solid red;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 6;
+      width: 25px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  
+  #pyramid-level-2 {
+      border-bottom: 50px solid blue;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 8;
+      width: 50px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  
+  #pyramid-level-1 {
+    position: relative;
+      border-bottom: 50px solid green;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 10;
+      width: 100px;
+      margin-right:auto;
+      margin-left:auto;
+  }
