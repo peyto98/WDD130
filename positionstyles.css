@@ -73,14 +73,14 @@
   height: 200px; 
   background-color: green;
   grid-column: 1;
-  justify-items: left;
+  justify-self: left;
 } 
 .yellow3 {
   width: 600px; 
   height: 200px; 
   background-color: gold;
   grid-column: 2; 
-  justify-items: flex-end;
+  justify-items: end;
 } 
 .blue3 {
   width: 100%;
