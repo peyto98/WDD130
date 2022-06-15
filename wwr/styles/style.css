@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Merriweather&display=swap');
 
+/*home page*/
+
 div {
     max-width: 1600px;
 }
@@ -212,7 +214,7 @@ main section img {
 
  /* start of rivers page*/
 
- 
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
