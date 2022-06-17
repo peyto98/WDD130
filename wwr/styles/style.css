@@ -214,7 +214,17 @@ main section img {
 
  /* start of rivers page*/
 
-
+.rafting-family {
+    align-items: center;
+}
+.rafting-family p {
+    background-color: #023E8A;
+    color: white;
+}
+.waves p {
+    background-color: #023E8A;
+    color: white;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
