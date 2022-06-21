@@ -226,6 +226,10 @@ main section img {
     color: white;
 }
 
+/*start of contact us page*/
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
