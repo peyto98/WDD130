@@ -82,7 +82,17 @@ nav a:hover {
     grid-column: 1/11;
     grid-row: 4/9;
 }
-.msg {
+.msg1 {
+    background-color: #fcfbfb;
+    color: black;
+    font-family: "Merriweather";
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg2 {
     background-color: #fcfbfb;
     color: black;
     font-family: "Merriweather";
@@ -91,7 +101,7 @@ nav a:hover {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
-}
+} 
 footer {
     background-color: #083d77;
     padding: 25px 50px;
@@ -119,11 +129,13 @@ footer {
 h4 {
     color: #023E8A;
 }
-.msg h2 {
+.msg1 p {
     color: black;
-    font-family: "Kalam";
+    font-family: "Merriweather";
+    font-size: .8em;
+    padding-bottom: 15px;
 }
-.msg p {
+.msg2 p {
     color: black;
     font-family: "Merriweather";
     font-size: .8em;
