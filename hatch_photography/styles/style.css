@@ -8,10 +8,10 @@ div {
 }
 #content {
     margin: 0 auto;
-}
-nav a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: justify;
-    color: white;
+    color: #c5f0c9 ;
     text-decoration: none;
     font-family: "Merriweather";
     padding: 35px;
@@ -23,7 +23,7 @@ nav a {
 }
 #hero-msg h1{
     text-align: center;
-    font-family: "Merriweather";    
+    font-family: "Cedarville Cursive";    
 }
 #hero-msg h4 {
     text-align: center;
@@ -57,14 +57,19 @@ nav a:hover {
     background-color: black;
     color: #c5f0c9;
 }
+#hero-img {
+    justify-content: center;
+}
 .hero {
     justify-content: center;
     margin-top: -100px;
     text-align: center;
+    width: 100%;
 }
 #hero-box {
     text-align: center;
     justify-self: center;
+    width: 100%;
 }
 .book {
     background-color: #b88c9e;
@@ -105,11 +110,6 @@ nav a:hover {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 } 
-
-}
-#hero-img {
-    justify-content: center;
-}
 .home-title {
     color: #023E8A;
     font-family: "Cedarville Cursive";
@@ -117,18 +117,14 @@ nav a:hover {
     margin-top: 10px;
 }
 .flowers {
-    border: 10px solid #d9c2a3;
     width: 100%;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #d9c2a3;
     grid-template-rows: 4/5;
     grid-template-columns: 2/3;
 }
 .proposing{
-    border: 10px solid #d9c2a3;
     width: 100%;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #d9c2a3;
     grid-template-rows: 7/8;
     grid-template-columns: 2/3;
 }
@@ -174,8 +170,8 @@ footer h3 a {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 11px;
-    grid-template-rows: 10px;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
 
