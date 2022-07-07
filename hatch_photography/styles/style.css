@@ -32,6 +32,9 @@ div {
 .button-box {
     text-align: center;
     font-family: "Merriweather";
+    padding-top: 35px;
+    width: 100%;
+    padding-inline-start: 8%;
 }
 main section {
     text-align: center;
@@ -164,7 +167,16 @@ footer h3 a {
     grid-template-rows: 20%;
 }
 
+/*engagment page*/
 
+h2 {
+    width: 100%;
+    padding-inline-start: 37.5%;
+}
+.msg {
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+}
 
 
 
