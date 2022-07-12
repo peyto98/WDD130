@@ -17,7 +17,7 @@ div {
     padding: 35px;
     display: flex;
     justify-content: space-around;
-    
+
 }
 .logo {
     width: 80px;
@@ -178,6 +178,18 @@ h2 {
     padding-inline-start: 10%;
     padding-inline-end: 10%;
 }
+
+/*individual page*/
+
+.wall {
+    justify-self: center;
+}
+h4 {
+    width:100%;
+    padding-inline-start: 39%;
+    font-size: 1.5em;
+}
+
 
 
 
